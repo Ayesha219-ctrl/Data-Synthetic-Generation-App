@@ -1,0 +1,23 @@
+# Core
+streamlit>=1.25
+
+# Data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+scipy
+
+# Synthetic data
+sdv
+copulas
+rdt
+
+# Utilities
+python-dateutil
+
