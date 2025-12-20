@@ -14,6 +14,7 @@ import warnings
 import logging
 import multiprocessing
 import sdv
+import torch
 import traceback
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
@@ -1436,4 +1437,5 @@ elif st.session_state.page == 'Generate':
             st.code(traceback.format_exc())
     else:
         st.info("📂 Please upload a file to proceed.")
+
 
